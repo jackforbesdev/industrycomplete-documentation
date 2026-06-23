@@ -1,5 +1,5 @@
 site_name: IndustryComplete Support Centre
-site_url: https://provenworks.com/support/industrycomplete
+site_url: https://support.provenworks.com/
 docs_dir: documentation
 extra:
   homepage: https://provenworks.com/
@@ -25,6 +25,7 @@ plugins:
   - search
 
 nav:
+  - Home: index.md
   - Using IndustryComplete: pages/using-industrycomplete.md
   - Installation Guides:
     - "IndustryComplete: Installation Walkthrough": pages/ic-installation-walkthrough.md

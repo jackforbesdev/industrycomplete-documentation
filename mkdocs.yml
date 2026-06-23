@@ -1,0 +1,31 @@
+site_name: IndustryComplete Support Centre
+site_url: https://provenworks.com/support/industrycomplete
+docs_dir: documentation
+extra:
+  homepage: https://provenworks.com/
+extra_css: 
+  - stylesheets/extra.css
+
+copyright: "© 2013 - 2026. Proven Works Limited. All rights reserved. ProvenWorks is a registered trademark. Salesforce, Salesforce.com, AppExchange and others are trademarks of salesforce.com, inc. and are used here with permission."
+
+theme:
+  name: material
+  logo: media/pw-logo-green.png
+  features:
+    - navigation.instant
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+    - navigation.sections
+    - navigation.footer
+  palette:
+    primary: white
+
+plugins:
+  - search
+
+nav:
+  - Using IndustryComplete: pages/using-industrycomplete.md
+  - Installation Guides:
+    - "IndustryComplete: Installation Walkthrough": pages/ic-installation-walkthrough.md
+    - "IndustryComplete Enrichment Installation": pages/ic-enrichment-installation.md
